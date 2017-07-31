@@ -3,14 +3,14 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title> Goiter | Guidelines MD </title>
-        <meta name="description" content="Medical guidelines for Goiter. By doctors, for doctors.">
-        <meta name="author" content="author-config" />
+        <title>{% if page.title %} {{ page.title }} | {{ site.name }} {% else %} {{ site.name }} {% endif %}</title>
+        <meta name="description" content="Medical guidelines for {{ page.title }}. By doctors, for doctors.">
+        <meta name="author" content="{{site.author}}" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="/css/normalize.min.css">
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="{{site.baseurl}}/css/normalize.min.css">
+        <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
 
         <!--[if lt IE 9]>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -26,17 +26,9 @@
             <nav>
                 <input value="Search (not yet working)" />
             </nav>
-            <h2>Goiter</h2>
+            <h2>{{ page.title }}</h2>
 
-            <p>(not to be confused with <a href="/gout">gout</a> )</p>
-
-<ul>
-  <li>Goiter is not a kind of arthritis caused by a buildup of uric acid crystals in the joints.</li>
-  <li>Goiter, get out!</li>
-</ul>
-
-<p>Source: <a href="http://www.webmd.com/arthritis/ss/slideshow-gout">WebMD</a></p>
-
+            {{ content }}
 
         </div>
     </body>

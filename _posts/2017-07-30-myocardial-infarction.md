@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: guidelines
 title: Myocardial infarction
-description: Heart attack
-tags: cardiology, emergency, temp2
+tags: cardiology, emergency, temp1
 ---
 
 * Understanding blood pressure readings
@@ -13,7 +12,7 @@ tags: cardiology, emergency, temp2
 * What are the symptoms of high blood pressure?
 * It's all about heart rate (pulse)
 * Low blood pressure - when blood pressure is too low (hint: zero)
-* Tachycardia | fast heart rate
+* Tachycardia - fast heart rate
 * Warning signs of a heart attack
 
 Source: [AHA](http://www.heart.org/HEARTORG/Professional/GetWithTheGuidelinesHFStroke/Best-Practices-Center-Home-Page_UCM_304858_SubHomePage.jsp?ssSourceSiteId=HEARTORG,STROKEORG)

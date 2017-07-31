@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{% if page.title %} {{ page.title }} | {{ site.name }} {% else %} {{ site.name }} {% endif %}</title>
-        <meta name="description" content="{% if page.description %} {{ page.description }} {% else %} {{ site.description }} {% endif %}">
+        <meta name="description" content="Medical guidelines for {{ page.title }}. By doctors, for doctors.">
         <meta name="author" content="{{site.author}}" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,15 +18,16 @@
         <![endif]-->
     </head>
     <body>
-
-        <nav>Navigation header goes here</nav>
-
-        <article>
+        <div id="page-container">
             <header>
-                <h1>{{ page.title }}</h1>
+                <h1>Guidelines MD</h1>
+                <p id="tagline">A collection of best practices from professional organizations, curated by doctors, for doctors</p>                
             </header>
+            <nav>
+                <input value="Search (not yet working)" />
+            </nav>
             {{ content }}
-        </article>
 
+        </div>
     </body>
 </html>

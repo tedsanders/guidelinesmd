@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: guidelines
 title: Code brown
-description: Code
 tags: codes, temp1
 ---
 
