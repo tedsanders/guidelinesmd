@@ -4,5 +4,5 @@ layout: default
 ---
 
 
-* [Hospital wings A-L](/al/)
-* [Hospital wings M-Z](/mz/)
+* [Hospital wings A-L](al/)
+* [Hospital wings M-Z](mz/)
