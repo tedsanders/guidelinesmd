@@ -1,0 +1,16 @@
+name:        Guidelines MD
+description: A collection of best practices from professional organizations, curated by doctors, for doctors
+
+url:         http://localhost:4000
+author:      author-config
+
+future:      false
+show_drafts: false
+
+relative_permalinks: false
+
+permalink:     :title
+paginate_path: 'page:num'
+paginate: 10
+
+markdown: kramdown
