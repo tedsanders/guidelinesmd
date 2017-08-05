@@ -95,7 +95,7 @@ $(document).ready(function() {
     // Loop through, match, and add results
     for (var item in result) {
       var ref = result[item].ref;
-      var searchitem = '<div class="result"><a href="http://www.tedanders.com' + store[ref].link + '">' + store[ref].title + '</a><p>' + store[ref].excerpt + '</p></div>';
+      var searchitem = '<div class="result"><a href="http://www.tedanders.com/guidelinesmd' + store[ref].link + '">' + store[ref].title + '</a><p>' + store[ref].excerpt + '</p></div>';
       resultdiv.append(searchitem);
     }
   });
