@@ -1,6 +1,6 @@
 ﻿// builds lunr
 var index = lunr(function () {
-    this.field('title', { boost: 10 })
+  this.field('title', { boost: 20 })
   this.field('content')
   this.field('tags')
   this.ref('id')
@@ -91,11 +91,11 @@ $(document).ready(function() {
     // Show results
     resultdiv.empty();
     // Add status
-    resultdiv.prepend('<p class="">Found '+result.length+' result(s)</p>');
+    resultdiv.prepend('<p class="">'+result.length+' results found.</p>');
     // Loop through, match, and add results
     for (var item in result) {
       var ref = result[item].ref;
-      var searchitem = '<div class="result"><a href="'+store[ref].link+'">'+store[ref].title+'</a></div>';
+      var searchitem = '<div class="result"><a href="' + store[ref].link + '">' + store[ref].title + '</a><p>' + store[ref].excerpt + '</p></div>';
       resultdiv.append(searchitem);
     }
   });

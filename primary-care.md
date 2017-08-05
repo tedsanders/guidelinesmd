@@ -4,14 +4,20 @@ layout: specialty
 ---
 
 
-<ul style="list-style :none;">
+
+
+<ul class="list-of-guidelines">
 	{% for post in site.tags.temp1 %}
 	<li>
 		<details>
-		<summary>{{ post.title }}</summary>
+		<summary><h2>{{ post.title }}</h2>
+
+{% if post.tags contains 'AHA' %} <a href="{{ site.baseurl }}/aha" class="source-tag">AHA</a> {% endif %} 
+
+		</summary>
 		{{ post.content }}
 		</details>
-    </li>
+    	</li>
 	{% endfor %}
 </ul>
 

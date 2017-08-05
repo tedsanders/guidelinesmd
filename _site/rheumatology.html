@@ -16,23 +16,37 @@
             <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
             <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
         <![endif]-->
+        <script src="/js/jquery.min.js"></script>
     </head>
-    <body>
-        <div id="page-container">
-            <header>
-                <h1>Guidelines MD</h1>
-                <p id="tagline">A collection of best practices from professional organizations, curated by doctors, for doctors</p>                
-            </header>
-            <nav>
-                <input value="Search (not yet working)" />
-            </nav>
-            <h2>Rheumatology</h2>
+    <body><div id="page-container">
+    <nav>
+    <div class="container">
+        <input placeholder="Search&hellip;" type="search" id="search" autofocus>
+        <div id="results"></div>
+    </div>
+</nav>
+    <header>
+    <div class="container">
 
-            <ul style="list-style :none;">
+        <div>
+            <a href="/" id="site-title">MD Best Practices</a>
+        </div>
+        <p id="site-description">A collection of best practices from professional organizations, curated by doctors, for doctors</p>
+    </div>
+</header>
+    <div id="content-container" class="container">
+        
+        <h1 class="specialty-title">Rheumatology</h1>
+
+        <ul class="list-of-guidelines">
 	
 	<li>
 		<details>
-		<summary>Stubbed toe</summary>
+		<summary><h2>Stubbed toe</h2>
+
+ 
+
+		</summary>
 		<ul>
   <li>Better safe than sorry - call 911</li>
   <li>If breathing seems faint, begin lung compressions</li>
@@ -43,11 +57,15 @@
 <p>Source: <a href="http://google.com">The Googs</a></p>
 
 		</details>
-    </li>
+    	</li>
 	
 	<li>
 		<details>
-		<summary>Myocardial infarction</summary>
+		<summary><h2>Myocardial infarction</h2>
+
+ 
+
+		</summary>
 		<ul>
   <li>Understanding blood pressure readings</li>
   <li>Sodium and salt</li>
@@ -64,11 +82,15 @@
 <p>Source: <a href="http://www.heart.org/HEARTORG/Professional/GetWithTheGuidelinesHFStroke/Best-Practices-Center-Home-Page_UCM_304858_SubHomePage.jsp?ssSourceSiteId=HEARTORG,STROKEORG">AHA</a></p>
 
 		</details>
-    </li>
+    	</li>
 	
 	<li>
 		<details>
-		<summary>Gout</summary>
+		<summary><h2>Gout</h2>
+
+ <a href="/aha" class="source-tag">AHA</a>  
+
+		</summary>
 		<ul>
   <li>Gout is a kind of arthritis caused by a buildup of uric acid crystals in the joints.</li>
   <li>Gout, get out!</li>
@@ -77,11 +99,15 @@
 <p>Source: <a href="http://www.webmd.com/arthritis/ss/slideshow-gout">WebMD</a></p>
 
 		</details>
-    </li>
+    	</li>
 	
 	<li>
 		<details>
-		<summary>Goiter</summary>
+		<summary><h2>Goiter</h2>
+
+ 
+
+		</summary>
 		<p>(not to be confused with <a href="/gout">gout</a> )</p>
 
 <ul>
@@ -92,11 +118,15 @@
 <p>Source: <a href="http://www.webmd.com/arthritis/ss/slideshow-gout">WebMD</a></p>
 
 		</details>
-    </li>
+    	</li>
 	
 	<li>
 		<details>
-		<summary>Diarrhea</summary>
+		<summary><h2>Diarrhea</h2>
+
+ 
+
+		</summary>
 		<ul>
   <li>Don’t have it</li>
   <li>Meat is bad</li>
@@ -105,11 +135,15 @@
 <p>Source: [Mexican food]</p>
 
 		</details>
-    </li>
+    	</li>
 	
 	<li>
 		<details>
-		<summary>Code brown</summary>
+		<summary><h2>Code brown</h2>
+
+ 
+
+		</summary>
 		<ul>
   <li>Code colors vary by hospital, so no general advice can be given</li>
   <li>Code browns occur when you mix all the other codes together in equal proportions</li>
@@ -118,11 +152,15 @@
 <p>Source: <a href="https://en.wikipedia.org/wiki/Hospital_emergency_codes">UPS</a></p>
 
 		</details>
-    </li>
+    	</li>
 	
 	<li>
 		<details>
-		<summary>Aging</summary>
+		<summary><h2>Aging</h2>
+
+ 
+
+		</summary>
 		<ul>
   <li>As of today, there is no cure to aging</li>
   <li>Aging is a condition that gets old fast</li>
@@ -132,12 +170,20 @@
 <p>Source: <a href="http://www.google.com">My lived experience</a></p>
 
 		</details>
-    </li>
+    	</li>
 	
 </ul>
 
 
 
-        </div>
-    </body>
+    </div>
+    <footer>
+    <div class="container">
+        <p>Guidelines given here are intended to be inputs to clinical judgment, not substitutes. They should not guide patient care alone. See our <a href="/disclaimer">full disclaimer</a>.</p>
+        <a href="/about">About Guidelines MD</a>
+    </div>
+</footer>
+    <script src="/js/lunr.min.js"></script>
+    <script src="/js/lunr-feed.js"></script>
+    </div></body>
 </html>
