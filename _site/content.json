@@ -1,0 +1,151 @@
+{
+    
+        "stubbed-toe": {
+            "title": "Stubbed toe",
+            "url": "/stubbed-toe",
+            "summary": "Better safe than sorry - call 911 If breathing seems faint, begin lung compressions Sometimes the best way to forget about an old injury is to cause a new injury; threaten patient with new injuries if subjective self-reporting of pain continues Note: if patient is p-zombie, do not treatSource: The..."
+        },
+    
+        "myocardial-infarction": {
+            "title": "Myocardial infarction",
+            "url": "/myocardial-infarction",
+            "summary": "Understanding blood pressure readings Sodium and salt Target heart rates Heart attack symptoms in women How to eat healthy and still have fun What are the symptoms of high blood pressure? It’s all about heart rate (pulse) Low blood pressure - when blood pressure is too low (hint: zero) Tachycardia..."
+        },
+    
+        "gout": {
+            "title": "Gout",
+            "url": "/gout",
+            "summary": "  Gout is a kind of arthritis caused by a buildup of uric acid crystals in the joints.  Gout, get out!Source: WebMD"
+        },
+    
+        "goiter": {
+            "title": "Goiter",
+            "url": "/goiter",
+            "summary": "(not to be confused with gout )  Goiter is not a kind of arthritis caused by a buildup of uric acid crystals in the joints.  Goiter, get out!Source: WebMD"
+        },
+    
+        "diarrhea": {
+            "title": "Diarrhea",
+            "url": "/diarrhea",
+            "summary": "  Don’t have it  Meat is badSource: [Mexican food]"
+        },
+    
+        "code-brown": {
+            "title": "Code brown",
+            "url": "/code-brown",
+            "summary": "  Code colors vary by hospital, so no general advice can be given  Code browns occur when you mix all the other codes together in equal proportionsSource: UPS"
+        },
+    
+        "aging": {
+            "title": "Aging",
+            "url": "/aging",
+            "summary": "  As of today, there is no cure to aging  Aging is a condition that gets old fast  Time heals all wounds; but time doesn’t heal aging; therefore, aging is not a woundSource: My lived experience"
+        },
+    
+    
+        "allergy": {
+            "title": "Allergy",
+            "url": "/allergy.html",
+            "summary": "Stubbed toe Better safe than sorry - call 911 If breathing seems faint, begin lung compressions Sometimes the best way to forget about an old injury is to cause a new injury; threaten patient with new injuries if subjective self-reporting of pain continues Note: if patient is p-zombie, do not..."
+        }
+        ,
+    
+        "cardiology": {
+            "title": "Cardiology",
+            "url": "/cardiology.html",
+            "summary": "Stubbed toe Better safe than sorry - call 911 If breathing seems faint, begin lung compressions Sometimes the best way to forget about an old injury is to cause a new injury; threaten patient with new injuries if subjective self-reporting of pain continues Note: if patient is p-zombie, do not..."
+        }
+        ,
+    
+        "content-json": {
+            "title": "",
+            "url": "/content.json.html",
+            "summary": "{ {% for entry in site.posts %} &quot;{{ entry.url | slugify }}&quot;: { &quot;title&quot;: &quot;{{ entry.title | xml_escape }}&quot;, &quot;url&quot;: &quot;{{ entry.url | xml_escape }}&quot;, &quot;summary&quot;: &quot;{{ entry.content | strip_html | strip_newlines | truncatewords: 50 | xml_escape }}&quot; }, {% endfor %} {% for entry in site.pages %} &quot;{{ entry.url..."
+        }
+        ,
+    
+        "critical-care": {
+            "title": "Critical care",
+            "url": "/critical-care.html",
+            "summary": "	{% for post in site.tags.temp1 %}					{{ post.title }}		{{ post.content }}		    	{% endfor %}"
+        }
+        ,
+    
+        "gastroenterology": {
+            "title": "Gastroenterology",
+            "url": "/gastroenterology.html",
+            "summary": "	{% for post in site.tags.temp1 %}					{{ post.title }}		{{ post.content }}		    	{% endfor %}"
+        }
+        ,
+    
+        "hematology": {
+            "title": "Hematology",
+            "url": "/hematology.html",
+            "summary": "	{% for post in site.tags.temp1 %}					{{ post.title }}		{{ post.content }}		    	{% endfor %}"
+        }
+        ,
+    
+        "": {
+            "title": "Guidelines MD",
+            "url": "/.html",
+            "summary": "## Browse by specialty* [Allergy](allergy)* [Cardiology](cardiology)* [Critical care](critical-care)* [Gastroenterology](gastroenterology)* [Hematology](hematology)* [Infectious diseases](infectious-diseases)* [Nephrology](nephrology)* [Oncology](oncology)* [Primary care](primary-care)* [Pulmonology](pulmonology)* [Rheumatology](rheumatology)"
+        }
+        ,
+    
+        "infectious-diseases": {
+            "title": "Infectious diseases",
+            "url": "/infectious-diseases.html",
+            "summary": "	{% for post in site.tags.temp1 %}					{{ post.title }}		{{ post.content }}		    	{% endfor %}"
+        }
+        ,
+    
+        "js-lunr-feed": {
+            "title": "",
+            "url": "/js/lunr-feed.html",
+            "summary": "// builds lunrvar index = lunr(function () { this.field('title') this.field('content', {boost: 10}) this.field('category') this.field('tags') this.ref('id')});{% assign count = 0 %}{% for post in site.posts %}index.add({ title: {{post.title | jsonify}}, category: {{post.category | jsonify}}, content: {{post.content | strip_html | jsonify}}, tags: {{post.tags | jsonify}}, id: {{count}}});{% assign count = count |..."
+        }
+        ,
+    
+        "nephrology": {
+            "title": "Nephrology",
+            "url": "/nephrology.html",
+            "summary": "	{% for post in site.tags.temp1 %}					{{ post.title }}		{{ post.content }}		    	{% endfor %}"
+        }
+        ,
+    
+        "oncology": {
+            "title": "Oncology",
+            "url": "/oncology.html",
+            "summary": "	{% for post in site.tags.temp1 %}					{{ post.title }}		{{ post.content }}		    	{% endfor %}"
+        }
+        ,
+    
+        "primary-care": {
+            "title": "Primary care",
+            "url": "/primary-care.html",
+            "summary": "	{% for post in site.tags.temp1 %}					{{ post.title }}		{{ post.content }}		    	{% endfor %}"
+        }
+        ,
+    
+        "pulmonology": {
+            "title": "Pulmonology",
+            "url": "/pulmonology.html",
+            "summary": "	{% for post in site.tags.temp1 %}					{{ post.title }}		{{ post.content }}		    	{% endfor %}"
+        }
+        ,
+    
+        "rheumatology": {
+            "title": "Rheumatology",
+            "url": "/rheumatology.html",
+            "summary": "	{% for post in site.tags.temp1 %}					{{ post.title }}		{{ post.content }}		    	{% endfor %}"
+        }
+        ,
+    
+        "search": {
+            "title": "",
+            "url": "/search.html",
+            "summary": "Hello								"
+        }
+        
+    
+}
