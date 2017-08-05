@@ -1,8 +1,8 @@
 ﻿// builds lunr
 var index = lunr(function () {
-  this.field('title', { boost: 20 })
-  this.field('content')
-  this.field('tags')
+    this.field('title', { boost: 20 })
+    this.field('content')
+    this.field('tags' {boost: 10})
   this.ref('id')
 });
 
@@ -91,11 +91,11 @@ $(document).ready(function() {
     // Show results
     resultdiv.empty();
     // Add status
-    resultdiv.prepend('<p class="">'+result.length+' results found.</p>');
+    resultdiv.prepend('<p>'+result.length+' results found.</p>');
     // Loop through, match, and add results
     for (var item in result) {
       var ref = result[item].ref;
-      var searchitem = '<div class="result"><a href="' + store[ref].link + '">' + store[ref].title + '</a><p>' + store[ref].excerpt + '</p></div>';
+      var searchitem = '<div class="result"><a href="http://www.tedanders.com' + store[ref].link + '">' + store[ref].title + '</a><p>' + store[ref].excerpt + '</p></div>';
       resultdiv.append(searchitem);
     }
   });
