@@ -1,8 +1,8 @@
 ---
 layout: guidelines
-title: Stubbed toe
+title: Constipation
 tags: primary-care, temp1, AHA
-permalink: /stubbed-toe
+
 ---
 
 *Alternates with diarrhea in IBS
