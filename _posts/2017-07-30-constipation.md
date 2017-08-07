@@ -1,7 +1,7 @@
 ---
 layout: guidelines
 title: Constipation
-tags: primary-care, temp1, AHA
+tags: [primary-care, temp1, AHA]
 
 ---
 
