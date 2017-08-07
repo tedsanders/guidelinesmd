@@ -2,7 +2,6 @@
 layout: guidelines
 title: Stubbed toe
 tags: primary-care, temp1
-permalink: /stubbed-toe
 ---
 
 * Better safe than sorry - call 911
